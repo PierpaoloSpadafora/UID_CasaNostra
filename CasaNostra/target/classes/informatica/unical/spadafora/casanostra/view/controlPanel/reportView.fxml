@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="informatica.unical.spadafora.casanostra.controller.controlPanel.ReportController">
+   <children>
+      <VBox alignment="CENTER" spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <HBox alignment="BOTTOM_CENTER" maxWidth="1050.0" spacing="50.0" styleClass="sfondoElementiInterattivi">
+               <children>
+                  <VBox>
+                     <children>
+                        <Label text="From">
+                           <VBox.margin>
+                              <Insets left="50.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox>
+                           <children>
+                              <FontIcon iconLiteral="mdi2c-calendar-arrow-right" styleClass="formIcon" />
+                              <DatePicker fx:id="startDate" styleClass="inputDatePicker" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox>
+                     <children>
+                        <Label text="To">
+                           <VBox.margin>
+                              <Insets left="50.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox>
+                           <children>
+                              <FontIcon iconLiteral="mdi2c-calendar-arrow-left" styleClass="formIcon" />
+                              <DatePicker fx:id="endDate" styleClass="inputDatePicker" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <FontIcon iconLiteral="mdi2c-card-search-outline" onMouseClicked="#searchTransactionSubmit" styleClass="formIcon">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontIcon>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <AnchorPane fx:id="chartPane" />
+            <HBox alignment="CENTER" fillHeight="false" spacing="60.0">
+               <children>
+                  <VBox alignment="CENTER" styleClass="sfondoElementiInterattivi">
+                     <children>
+                        <ScrollPane fx:id="scollPaneTransazioni1" maxHeight="200.0" prefWidth="450.0">
+                           <content>
+                              <AnchorPane>
+                                 <children>
+                                    <VBox fx:id="elencoSpese" alignment="CENTER_LEFT" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" styleClass="sfondoElementiInterattivi">
+                     <children>
+                        <ScrollPane fx:id="scollPaneTransazioni2" maxHeight="200.0" prefWidth="450.0">
+                           <content>
+                              <AnchorPane>
+                                 <children>
+                                    <VBox fx:id="elencoIncassi" alignment="CENTER_LEFT" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="20.0" onMouseClicked="#goBack" spacing="20.0" styleClass="sfondoGoBack" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <FontIcon iconColor="WHITE" iconLiteral="mdi2k-keyboard-backspace" iconSize="50" styleClass="formIcon" />
+            <Label text="Go Back&#10;" textAlignment="CENTER" />
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </HBox>
+   </children>
+</AnchorPane>

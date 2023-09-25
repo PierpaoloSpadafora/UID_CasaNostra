@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="informatica.unical.spadafora.casanostra.controller.account.AccountController">
+   <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+      <center>
+         <VBox alignment="CENTER" spacing="50.0" BorderPane.alignment="CENTER">
+            <Label styleClass="labelTitle" text="Account options" />
+            <VBox alignment="CENTER">
+               <children>
+                  <GridPane alignment="CENTER" hgap="10.0" maxWidth="1000.0" minHeight="500.0" prefHeight="700.0" styleClass="gridPaneHome" vgap="10.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <VBox alignment="CENTER" onMouseClicked="#eliminaAccount" styleClass="cell" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <FontIcon iconColor="WHITE" iconLiteral="mdi2d-delete-forever-outline" iconSize="100" styleClass="formIcon" textAlignment="CENTER">
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </FontIcon>
+                        <Label styleClass="homeLabel" text="Delete&#10;Account&#10;" textAlignment="CENTER">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                     </VBox>
+                     <VBox alignment="CENTER" onMouseClicked="#importaEsportaJson" styleClass="cell" GridPane.rowIndex="1">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <FontIcon iconColor="WHITE" iconLiteral="mdi2f-file-swap-outline" iconSize="100" styleClass="formIcon" textAlignment="CENTER">
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </FontIcon>
+                        <Label styleClass="homeLabel" text="Import/Export&#10;Data" textAlignment="CENTER">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Label>
+                     </VBox>
+                     <VBox alignment="CENTER" onMouseClicked="#domandeSicurezza" styleClass="cell" GridPane.columnIndex="1">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <children>
+                           <FontIcon iconColor="WHITE" iconLiteral="mdi2s-security" iconSize="100" styleClass="formIcon" textAlignment="CENTER">
+                              <VBox.margin>
+                                 <Insets left="20.0" right="20.0" top="20.0" />
+                              </VBox.margin>
+                           </FontIcon>
+                           <Label styleClass="homeLabel" text="Security&#10;Questions&#10;" textAlignment="CENTER">
+                              <VBox.margin>
+                                 <Insets />
+                              </VBox.margin>
+                           </Label>
+                        </children>
+                     </VBox>
+                     <VBox alignment="CENTER" onMouseClicked="#changePassword" styleClass="cell">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <children>
+                           <FontIcon iconColor="WHITE" iconLiteral="mdi2s-shield-edit-outline" iconSize="100" styleClass="formIcon" textAlignment="CENTER">
+                              <VBox.margin>
+                                 <Insets left="20.0" right="20.0" top="20.0" />
+                              </VBox.margin>
+                           </FontIcon>
+                           <Label styleClass="homeLabel" text="Change&#10;Password" textAlignment="CENTER">
+                              <VBox.margin>
+                                 <Insets />
+                              </VBox.margin>
+                           </Label>
+                        </children>
+                     </VBox>
+                  </GridPane>
+               </children>
+            </VBox>
+         </VBox>
+      </center>
+   </BorderPane>
+</AnchorPane>

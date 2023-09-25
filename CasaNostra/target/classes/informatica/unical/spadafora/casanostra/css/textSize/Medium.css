@@ -1,0 +1,116 @@
+.button {
+    -fx-font-size: 22px;
+}
+
+.successButton {
+    -fx-font-size: 22px;
+}
+
+.dangerButton {
+    -fx-font-size: 22px;
+}
+.primaryButton {
+    -fx-font-size: 22px;
+}
+
+.label {
+ -fx-font-size: 20px;
+}
+
+.labelTitle {
+ -fx-font-size: 34px;
+}
+
+.labelWelcome {
+ -fx-font-size: 30px;
+}
+
+.labelDescription {
+ -fx-font-size: 20px;
+}
+
+.labelErrore{
+ -fx-font-size: 18px;
+}
+
+.homeLabel{
+ -fx-font-size: 28px;
+}
+
+.formIcon{
+    -fx-font-size: 52px;
+}
+
+.formIconSmall{
+    -fx-font-size: 32px;
+}
+
+.welcomeIcon{
+    -fx-font-size: 92px;
+}
+
+.tableTransaction {
+    -fx-font-size: 20px;
+}
+
+.popupMessage .content{
+    -fx-font-size: 32px;
+}
+
+.iconErrorAlert{
+    -fx-font-size: 52px;
+}
+
+.iconInfoAlert{
+    -fx-font-size: 52px;
+}
+.iconWarningAlert{
+    -fx-font-size: 52px;
+}
+
+.iconSuccessAlert{
+    -fx-font-size: 52px;
+}
+
+.inputTextField{
+    -fx-font-size: 22px;
+}
+
+.inputPasswordField{
+    -fx-font-size: 22px;
+}
+
+.occhioPassword{
+    -fx-font-size: 32px;
+}
+
+.inputTextArea{
+    -fx-font-size: 22px;
+}
+
+.lineNumberTextArea {
+    -fx-font-size: 22px;
+}
+
+.inputComboBox{
+    -fx-font-size: 22px;
+}
+
+.inputComboBoxLarge{
+    -fx-font-size: 22px;
+}
+
+.inputDatePicker{
+    -fx-font-size: 22px;
+}
+
+.inputCheckBox {
+    -fx-font-size: 22px;
+}
+
+.inputRadioButton {
+    -fx-font-size: 22px;
+}
+
+
+

@@ -1,0 +1,203 @@
+
+
+/* ============== Import di altri file CSS ============== */
+
+@import url("input.css");
+@import url("alert.css");
+@import url("table.css");
+
+/* ================== Generale ================== */
+
+.root {
+    -fx-background-color: primaryBackgroundColor;
+    -fx-text-fill: textColor;
+    -fx-font-weight: bold;
+}
+
+/* ================== Bottoni ================== */
+
+.button {
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-text-fill: textColor;
+}
+.button:hover {
+    -fx-background-color: tertiaryBackgroundColor;
+}
+
+.successButton {
+    -fx-background-color: successButtonColor;
+    -fx-text-fill: textColor;
+}
+.successButton:hover {
+    -fx-background-color: successButtonColorHover;
+}
+
+.dangerButton {
+    -fx-background-color: dangerButtonColor;
+    -fx-text-fill: textColor;
+}
+.dangerButton:hover {
+    -fx-background-color: dangerButtonColorHover;
+}
+
+.primaryButton {
+    -fx-background-color: primaryButtonColor;
+    -fx-text-fill: textColor;
+}
+.primaryButton:hover {
+    -fx-background-color: primaryButtonColorHover;
+}
+
+/* ================== Labels ================== */
+
+.label {
+    -fx-text-fill: textColor;
+}
+
+.labelTitle, .labelWelcome, .homeLabel {
+    -fx-font-weight: bold;
+    -fx-text-fill: textColor;
+}
+
+.labelDescription {
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-text-fill: labelDescriptionColor;
+}
+
+.labelErrore {
+    -fx-font-weight: bold;
+    -fx-text-fill: labelErroreColor;
+}
+
+.labelPasswordDimenticata{
+    -fx-font-weight: bold;
+    -fx-text-fill: labelPasswordDimenticata;
+    -fx-font-style: italic;
+}
+
+/* ================== Icone ================== */
+
+.formIcon, .formIconSmall, .welcomeIcon {
+    -fx-fill: textColor;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+}
+
+/* ================== VARIE ================== */
+
+.drawerMenu {
+    -fx-background-radius: 0 10 10 0;
+    -fx-background-color: tertiaryBackgroundColor;
+}
+
+.selectedVbox{
+    -fx-background-color: primaryBackgroundColor;
+    -fx-background-radius: 10 0 0 10;
+}
+
+.optionsBar {
+    -fx-background-radius: 10;
+    -fx-background-color: tertiaryBackgroundColor;
+}
+
+/* ================== GridPane Home ================== */
+
+.gridPaneHome {
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-background-radius: 10;
+    -fx-padding: 10px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+.gridPaneHome .cell {
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-background-color: primaryBackgroundColor;
+}
+.gridPaneHome .cell:hover{
+    -fx-background-color: primarySelectionColor;
+}
+
+/* ================== LineChart ================== */
+
+.transactionChart {
+    -fx-background-color: primaryBackgroundColor;
+    -fx-font-weight: bold;
+    -fx-text-fill: textColor;
+}
+.transactionChart .chart-plot-background {
+    -fx-background-color: secondaryBackgroundColor;
+}
+.transactionChart .chart-vertical-grid-lines {
+    -fx-stroke: tertiaryBackgroundColor;
+    -fx-stroke-dash-array: 2 2;
+}
+.transactionChart .chart-horizontal-grid-lines {
+    -fx-stroke: tertiaryBackgroundColor;
+    -fx-stroke-dash-array: 2 2;
+}
+.transactionChart .chart-legend {
+    -fx-background-color: primaryBackgroundColor;
+    -fx-text-fill: textColor;
+}
+.transactionChart .axis-label {
+    -fx-text-fill: textColor;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+.transactionChart .axis-tick-label {
+    -fx-text-fill: textColor;
+    -fx-font-size: 12px;
+}
+.transactionChart .chart-bar {
+    -fx-stroke-width: 2px;
+}
+
+/* ================== Backgrounds ================== */
+
+.sfondoElementiInterattivi{
+    -fx-background-color: quaternaryBackgroundColor;
+    -fx-background-radius: 10;
+    -fx-padding: 20;
+}
+.sfondoGoBack{
+    -fx-background-color: quaternaryBackgroundColor;
+    -fx-background-radius: 10;
+    -fx-padding: 5;
+}
+.sfondoTabellaStiloso{
+    -fx-background-color: quaternaryBackgroundColor;
+}
+
+/* ================== Context Menu ================== */
+
+
+.context-menu {
+    -fx-background-color: primaryBackgroundColor;
+    -fx-text-fill: textColor;
+}
+
+.context-menu .menu-item {
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-text-fill: textColor;
+}
+
+.context-menu .menu-item:hover {
+    -fx-background-color: tertiaryBackgroundColor;
+}
+
+/* ================== Scroll Pane ================== */
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+
+
+
+

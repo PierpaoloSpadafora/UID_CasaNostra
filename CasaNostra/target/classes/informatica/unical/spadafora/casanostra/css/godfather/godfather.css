@@ -1,0 +1,42 @@
+* {
+
+    /* COLORI DELLE COSE DA LEGGERE*/
+    imagesColor: #FFFFFF;  /* Bianco */
+
+    textColor: #EDEDED;  /* Grigio più chiaro */
+    placeholderColor: #AAB2B4;  /* Grigio chiaro */
+
+    labelDescriptionColor: #AAB2B4;  /* Grigio chiaro */
+    labelErroreColor: #F3364C;  /* Rosso chiaro */
+    labelPasswordDimenticata: #64C1CF; /* Azzurro */
+
+
+    /* BACKGROUND */
+    primaryBackgroundColor: #1C1C1C;  /* Grigio molto scuro, quasi nero */
+    secondaryBackgroundColor: #333333;  /* Grigio scuro */
+    tertiaryBackgroundColor: #4F4F4F;  /* Grigio medio */
+    quaternaryBackgroundColor: #0F0F0F;  /* Grigio molto molto scuro */
+    primarySelectionColor: #8B0000;  /* Rosso sangue */
+
+    /* BOTTONI E AVVISI */
+    successButtonColor: #228B22;  /* Verde */
+    successButtonColorHover: #006400;  /* Verde scuro */
+    dangerButtonColor: #B22222;  /* Rosso scuro */
+    dangerButtonColorHover: #8B0000;  /* Rosso sangue */
+    primaryButtonColor: #8B4513;  /* Marrone terra di siena (più o meno)*/
+    primaryButtonColorHover: #5E2605;  /* Marrone terra di siena più scuro */
+
+    /* TABELLE */
+    tableHeaderColor: #121212;  /* Grigio scurissimo */
+    tableEvenRowColor: #1E1E1E;  /* Grigio molto scuro */
+    tableOddRowColor: #2F2F2F;  /* Grigio scuro */
+    tableSelectedRowColor: #8B4513;  /* Marrone terra di siena (più o meno)*/
+    tableRowHover: #4F4F4F;  /* Grigio medio */
+
+    /* ALERT */
+    errorAlert: #B22222;  /* Rosso scuro */
+    infoAlert: #6342AB;  /* Viola */
+    warningAlert: #DAA520;  /* Oro */
+    successAlert: #228B22;  /* Verde */
+
+}

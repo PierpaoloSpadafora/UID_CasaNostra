@@ -1,0 +1,61 @@
+
+
+/* ================== Stili Comuni ================== */
+
+.alertBase {
+    -fx-border-width: 5px;
+    -fx-background-color: primaryBackgroundColor;
+}
+
+.popupMessage .content {
+    -fx-font-family: font;
+    -fx-font-weight: bold;
+}
+
+/* ================== ALERT DI SUCCESSO ================== */
+
+.successAlert {
+    -fx-border-color: successAlert;
+}
+.successAlert .iconBase {
+    -fx-fill: successAlert;
+}
+.iconSuccessAlert{
+    -fx-fill: successAlert;
+}
+
+/* ================== ALERT DI ERRORE ================== */
+
+.errorAlert {
+    -fx-border-color: errorAlert;
+}
+.errorAlert {
+    -fx-fill: errorAlert;
+}
+.iconErrorAlert{
+    -fx-fill: errorAlert;
+}
+
+/* ================== ALERT DI WARNING ================== */
+
+.warningAlert {
+    -fx-border-color: warningAlert;
+}
+.warningAlert {
+    -fx-fill: warningAlert;
+}
+.iconWarningAlert{
+    -fx-fill: warningAlert;
+}
+
+/* ================== ALERT DI INFO ================== */
+
+.infoAlert {
+    -fx-border-color: infoAlert;
+}
+.infoAlert {
+    -fx-fill: infoAlert;
+}
+.iconInfoAlert {
+    -fx-fill: infoAlert;
+}

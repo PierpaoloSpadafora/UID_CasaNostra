@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" spacing="30.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Label styleClass="labelTitle" text="Credits" />
+            <VBox alignment="CENTER" spacing="20.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label styleClass="labelTitle" text="Icons and Logos" />
+                        <Label alignment="CENTER" styleClass="labelDescription" text="1)  https://it.pngtree.com/freepng/mafia-vector-illustration-for-your-company-or-brand_4102191.html?sol=downref&amp;id=bef" />
+                        <Label styleClass="labelDescription" text="2)  https://kordamp.org/ikonli" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label styleClass="labelTitle" text="Fonts:" />
+                        <Label styleClass="labelDescription" text="1)  https://opendyslexic.org/" />
+                        <Label styleClass="labelDescription" text="2)  https://www.fontspace.com/the-godfather-font-f2410" />
+                        <Label styleClass="labelDescription" text="3)  https://www.cufonfonts.com/font/sabon" />
+                        <Label styleClass="labelDescription" text="4)  https://fonts.google.com/specimen/Roboto" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

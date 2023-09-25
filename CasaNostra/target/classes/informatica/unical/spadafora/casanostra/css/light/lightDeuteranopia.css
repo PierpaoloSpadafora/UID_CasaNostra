@@ -1,0 +1,47 @@
+* {
+    /*
+    Deuteranopia:
+    Incapacità di percepire il colore verde.
+    Confusione tra le tonalità di verde e rosso, ma anche tra il verde e alcuni toni di grigio, viola e blu.
+    -
+    Evitare di utilizzare verde e rosso come colori distintivi.
+    Utilizzare toni di blu o giallo al posto del verde.
+    */
+
+    /* COLORI DELLE COSE DA LEGGERE */
+    imagesColor: black; /* Nero */
+
+    textColor: #000000; /* Nero */
+    placeholderColor: #555555; /* Grigio scuro */
+
+    labelDescriptionColor: #181818; /* Grigio scuro */
+    labelErroreColor: #465aff; /* Blu spento */
+
+    /* BACKGROUND */
+    primaryBackgroundColor: #e0e0e0; /* Grigio molto chiaro */
+    secondaryBackgroundColor: #C7C7C7; /* Grigio molto chiaro */
+    tertiaryBackgroundColor: #adadad; /* Grigio chiaro */
+    quaternaryBackgroundColor: #9A9A9A; /* Grigio medio */
+    primarySelectionColor: #7F7F7F; /* Grigio medio-chiaro */
+
+    /* BOTTONI E AVVISI */
+    successButtonColor: #FFD700; /* Giallo */
+    successButtonColorHover: #DAA520; /* Giallo scuro */
+    dangerButtonColor: #465aff; /* Blu spento */
+    dangerButtonColorHover: #00008B; /* Blu scuro */
+    primaryButtonColor: #E539E5; /* Magenta chiaro */
+    primaryButtonColorHover: #992699; /* Viola scuro */
+
+    /* TABELLE */
+    tableHeaderColor: #F8F9FA; /* Grigio molto chiaro */
+    tableEvenRowColor: #FFFFFF; /* Bianco */
+    tableOddRowColor: #F1F1F1; /* Grigio molto chiaro */
+    tableSelectedRowColor: #FFD700; /* Giallo */
+    tableRowHover: #D0D0D0; /* Grigio medio-chiaro */
+
+    /* ALERT */
+    errorAlert: #465aff; /* Blu spento */
+    infoAlert: #E539E5; /* Magenta chiaro */
+    warningAlert: #FFD700;  /* Giallo */
+    successAlert: #FFD700;  /* Giallo */
+}

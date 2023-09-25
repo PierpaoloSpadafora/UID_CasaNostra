@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane onKeyPressed="#tastoPremuto" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="informatica.unical.spadafora.casanostra.controller.transactions.AddTransactionController">
+   <VBox alignment="CENTER" spacing="50.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="10.0">
+      <VBox alignment="CENTER">
+         <Label styleClass="labelTitle" text="Enter transactions">
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Label>
+         <Label styleClass="labelDescription" text="Add a transaction to your account" textAlignment="CENTER">
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+         </Label>
+      </VBox>
+      <VBox alignment="CENTER" maxWidth="1000.0" spacing="50.0" styleClass="sfondoElementiInterattivi">
+         <HBox alignment="CENTER" spacing="40.0">
+            <padding>
+               <Insets top="10.0" />
+            </padding>
+            <VBox alignment="CENTER" spacing="30.0">
+               <VBox alignment="CENTER_LEFT">
+                  <Label styleClass="labelDescription" text="Name">
+                     <VBox.margin>
+                        <Insets left="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox>
+                     <FontIcon iconColor="WHITE" iconLiteral="mdi2s-swap-horizontal-circle-outline" styleClass="formIcon" textAlignment="CENTER" />
+                     <TextField fx:id="transactionField" onKeyTyped="#validateTransactionField" promptText="Type here..." styleClass="inputTextField">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </TextField>
+                  </HBox>
+               </VBox>
+               <VBox alignment="CENTER_LEFT">
+                  <Label styleClass="labelDescription" text="Category">
+                     <VBox.margin>
+                        <Insets left="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox>
+                     <FontIcon fill="WHITE" iconLiteral="mdi2f-folder-outline" styleClass="formIcon" />
+                     <ComboBox fx:id="categoryField" promptText="No Category" styleClass="inputComboBox">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </ComboBox>
+                  </HBox>
+               </VBox>
+            </VBox>
+            <VBox alignment="CENTER" spacing="30.0">
+               <VBox alignment="CENTER_LEFT">
+                  <Label styleClass="labelDescription" text="Amount">
+                     <VBox.margin>
+                        <Insets left="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER_LEFT">
+                     <FontIcon iconColor="WHITE" iconLiteral="mdi2c-cash-usd-outline" styleClass="formIcon" textAlignment="CENTER" />
+                     <TextField fx:id="amountField" onKeyTyped="#validateAmountField" promptText="Type here..." styleClass="inputTextField">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </TextField>
+                  </HBox>
+               </VBox>
+               <VBox alignment="CENTER_LEFT">
+                  <Label styleClass="labelDescription" text="Type">
+                     <VBox.margin>
+                        <Insets left="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER_LEFT">
+                     <FontIcon fill="WHITE" iconLiteral="mdi2c-compare-horizontal" styleClass="formIcon">
+                        <HBox.margin>
+                           <Insets />
+                        </HBox.margin>
+                     </FontIcon>
+                     <ComboBox fx:id="typeField" prefWidth="150.0" promptText="Expense" styleClass="inputComboBox">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </ComboBox>
+                  </HBox>
+               </VBox>
+            </VBox>
+         </HBox>
+         <VBox alignment="CENTER">
+            <Label styleClass="labelDescription" text="Date">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER">
+               <FontIcon iconColor="WHITE" iconLiteral="mdi2c-calendar" styleClass="formIcon" textAlignment="CENTER" />
+               <DatePicker fx:id="dateField" editable="false" promptText="Type here..." styleClass="inputDatePicker">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+               </DatePicker>
+            </HBox>
+         </VBox>
+         <VBox alignment="CENTER">
+            <Label styleClass="labelDescription" text="Notes (Optional)">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER">
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+               <FontIcon fill="WHITE" iconLiteral="mdi2n-note-plus-outline" styleClass="formIcon" />
+               <TextArea fx:id="lineNumberField" editable="false" styleClass="lineNumberTextArea" />
+               <TextArea fx:id="notesField" promptText="Note...(Optional)" styleClass="inputTextArea">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+               </TextArea>
+            </HBox>
+         </VBox>
+      </VBox>
+      <HBox alignment="CENTER">
+         <Button mnemonicParsing="false" onAction="#salvaTransazioneSubmit" styleClass="successButton" text="Save Transaction">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+      </HBox>
+   </VBox>
+   <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" onMouseClicked="#goBack" spacing="20.0" styleClass="sfondoGoBack" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+      <FontIcon iconColor="WHITE" iconLiteral="mdi2k-keyboard-backspace" iconSize="50" styleClass="formIcon" />
+      <Label text="Go Back&#10;" textAlignment="CENTER" />
+   </HBox>
+</AnchorPane>

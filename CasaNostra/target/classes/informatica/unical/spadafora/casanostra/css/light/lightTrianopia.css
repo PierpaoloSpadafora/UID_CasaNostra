@@ -1,0 +1,49 @@
+* {
+    /*
+    Tritanopia:
+    Incapacità di percepire il colore blu.
+    Confusione tra blu e verde, così come tra giallo e rosa o grigio chiaro.
+
+    -
+
+    Evitare di utilizzare blu e verde come colori distintivi.
+    Usare rosso o arancione al posto del blu.
+    */
+
+    /* COLORI DELLE COSE DA LEGGERE */
+    imagesColor: black; /* Nero */
+
+    textColor: #000000; /* Nero */
+    placeholderColor: #555555; /* Grigio scuro */
+
+    labelDescriptionColor: #181818; /* Grigio scuro */
+    labelErroreColor: #0000FF; /* Blu */
+
+    /* BACKGROUND */
+    primaryBackgroundColor: #e0e0e0; /* Grigio molto chiaro */
+    secondaryBackgroundColor: #C7C7C7; /* Grigio molto chiaro */
+    tertiaryBackgroundColor: #adadad; /* Grigio chiaro */
+    quaternaryBackgroundColor: #9A9A9A; /* Grigio medio */
+    primarySelectionColor: #7F7F7F; /* Grigio medio-chiaro */
+
+    /* BOTTONI E AVVISI */
+    successButtonColor: #FFA500; /* Arancione */
+    successButtonColorHover: #FF8C00; /* Arancione scuro */
+    dangerButtonColor: #FF0000; /* Rosso */
+    dangerButtonColorHover: #B22222; /* Rosso scuro */
+    primaryButtonColor: #DAA520; /* Oro */
+    primaryButtonColorHover: #CD853F; /* Marrone Peru */
+
+    /* TABELLE */
+    tableHeaderColor: #F8F9FA; /* Grigio molto chiaro */
+    tableEvenRowColor: #FFFFFF; /* Bianco */
+    tableOddRowColor: #F1F1F1; /* Grigio molto chiaro */
+    tableSelectedRowColor: #FFA500; /* Arancione */
+    tableRowHover: #D0D0D0; /* Grigio medio-chiaro */
+
+    /* ALERT */
+    errorAlert: #FF0000;  /* Rosso */
+    infoAlert: #DAA520;  /* Oro */
+    warningAlert: #FF4500;  /* Arancione */
+    successAlert: #FFA500;  /* Arancione */
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane onKeyPressed="#tastoPremuto" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="informatica.unical.spadafora.casanostra.controller.userAccessPoint.LoginController">
+   <children>
+      <VBox alignment="CENTER" spacing="50.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label styleClass="labelTitle" text="CasaNostra">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label styleClass="labelDescription" text="Enter your credentials to log in your account" textAlignment="CENTER">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" maxWidth="650.0" spacing="50.0" styleClass="sfondoElementiInterattivi">
+               <children>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <Label styleClass="labelDescription" text="Username" />
+                        <HBox alignment="CENTER">
+                           <children>
+                              <FontIcon iconColor="WHITE" iconLiteral="mdi2a-account" styleClass="formIcon" textAlignment="CENTER" />
+                              <TextField fx:id="usernameField" onKeyTyped="#validaUsername" promptText="Type here..." styleClass="inputTextField">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </TextField>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <Label styleClass="labelDescription" text="Password" />
+                        <HBox alignment="CENTER">
+                           <children>
+                              <FontIcon fill="WHITE" iconLiteral="mdi2s-shield-lock" styleClass="formIcon" />
+                              <StackPane alignment="CENTER_RIGHT">
+                                 <children>
+                                    <PasswordField fx:id="passwordFieldVisible" promptText="Type here..." styleClass="inputPasswordField">
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </PasswordField>
+                                    <TextField fx:id="passwordFieldHidden" promptText="Type here..." styleClass="inputPasswordField" visible="false" />
+                                 </children>
+                              </StackPane>
+                              <StackPane styleClass="sfondoOcchioPassword">
+                                 <children>
+                                    <FontIcon fx:id="eyePasswordField" iconColor="WHITE" iconLiteral="mdi2e-eye" iconSize="50" onMouseClicked="#togglePasswordVisibility" styleClass="occhioPassword" textAlignment="CENTER" wrappingWidth="50.0">
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </FontIcon>
+                                 </children>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </StackPane>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#loginSubmit" styleClass="primaryButton" text="Log In">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <Label onMouseClicked="#passwordDimenticata" styleClass="labelPasswordDimenticata" text="forgot password?">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Separator style="-fx-background-color: white;" />
+            <VBox alignment="TOP_CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#registrationSubmit" styleClass="successButton" text="Create a new account">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+      <ImageView fx:id="dyslexiaButton" fitHeight="50.0" fitWidth="50.0" onMouseClicked="#toggleFontDislessia" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <image>
+            <Image url="@../../pictures/dyslexia_white.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
