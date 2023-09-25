@@ -12,7 +12,7 @@ While the core purpose is to provide a straightforward solution for financial ma
 
 ## Prerequisites
 - JavaFX (version 17.0.6 or higher)
-- SceneBuilder (version 19.0.0 or higher)
+- SceneBuilder (Optional - version 19.0.0 or higher)
 
 ## Installation
 1. Ensure you have JavaFX installed on your system.
