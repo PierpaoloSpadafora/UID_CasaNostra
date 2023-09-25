@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CasaNostra:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="451585df-0fe5-4a5e-afd4-d3b4174e840a" name="Changes" comment="babagi">
+      <change beforePath="$PROJECT_DIR$/CasaNostra.db" beforeDir="false" afterPath="$PROJECT_DIR$/CasaNostra.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/ControlPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/ControlPanelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/transactions/AddTransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/transactions/AddTransactionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/transactions/EditTransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/transactions/EditTransactionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/userAccessPoint/AccessResetPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/userAccessPoint/AccessResetPasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/userAccessPoint/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/userAccessPoint/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/userAccessPoint/UsernameRecoveryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/informatica/unical/spadafora/casanostra/controller/userAccessPoint/UsernameRecoveryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ripasso Orale.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Ripasso Orale.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PierpaoloSpadafora&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="43a4561a-2fd4-4ae4-ae20-e1ac31879708" />
+        <option name="url" value="https://github.com/PierpaoloSpadafora/UID.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2TQsOQ2NKztqFzL4eZyIFTbwqVF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last.edited.regexp&quot;: &quot;abdfsdfcA1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/theri/OneDrive - Università della Calabria/Esami Uni/User Interface Design/CasaNostra/src/main/resources/informatica/unical/spadafora/casanostra/view/controlPanel&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15792881&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="informatica.unical.spadafora.casanostra.handler" />
+      <recent name="informatica.unical.spadafora.casanostra.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\view\controlPanel" />
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\view\account" />
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\view" />
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\view\transaction" />
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\view\controlPanel" />
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\view\transaction" />
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\view\userAccessPoint" />
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\view\account" />
+      <recent name="C:\Users\theri\OneDrive - Università della Calabria\Esami Uni\User Interface Design\CasaNostra\src\main\resources\informatica\unical\spadafora\casanostra\view" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="informatica.unical.spadafora.casanostra.handler" />
+      <recent name="informatica.unical.spadafora.casanostra" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="informatica.unical.spadafora.casanostra.controller.account" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="informatica.unical.spadafora.casanostra.Main" />
+      <module name="CasaNostra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="informatica.unical.spadafora.casanostra.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="451585df-0fe5-4a5e-afd4-d3b4174e840a" name="Changes" comment="" />
+      <created>1690986608185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690986608185</updated>
+    </task>
+    <task id="LOCAL-00080" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694045087715</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1694045087715</updated>
+    </task>
+    <task id="LOCAL-00081" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694045559028</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1694045559028</updated>
+    </task>
+    <task id="LOCAL-00082" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694097963420</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1694097963421</updated>
+    </task>
+    <task id="LOCAL-00083" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694100229636</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1694100229636</updated>
+    </task>
+    <task id="LOCAL-00084" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694110879627</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1694110879628</updated>
+    </task>
+    <task id="LOCAL-00085" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694112526189</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1694112526189</updated>
+    </task>
+    <task id="LOCAL-00086" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694118732570</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1694118732570</updated>
+    </task>
+    <task id="LOCAL-00087" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694119004051</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1694119004051</updated>
+    </task>
+    <task id="LOCAL-00088" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694121954416</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1694121954416</updated>
+    </task>
+    <task id="LOCAL-00089" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694123736874</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1694123736874</updated>
+    </task>
+    <task id="LOCAL-00090" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694124160967</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1694124160967</updated>
+    </task>
+    <task id="LOCAL-00091" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694130097736</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1694130097737</updated>
+    </task>
+    <task id="LOCAL-00092" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694193677590</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1694193677591</updated>
+    </task>
+    <task id="LOCAL-00093" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694267840297</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1694267840297</updated>
+    </task>
+    <task id="LOCAL-00094" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694278344514</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1694278344514</updated>
+    </task>
+    <task id="LOCAL-00095" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694389402325</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1694389402326</updated>
+    </task>
+    <task id="LOCAL-00096" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694390782180</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1694390782180</updated>
+    </task>
+    <task id="LOCAL-00097" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694392215315</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1694392215315</updated>
+    </task>
+    <task id="LOCAL-00098" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694444208076</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1694444208077</updated>
+    </task>
+    <task id="LOCAL-00099" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694449345323</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1694449345323</updated>
+    </task>
+    <task id="LOCAL-00100" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694450700325</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1694450700325</updated>
+    </task>
+    <task id="LOCAL-00101" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694468993711</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1694468993711</updated>
+    </task>
+    <task id="LOCAL-00102" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694472645147</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1694472645147</updated>
+    </task>
+    <task id="LOCAL-00103" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694474125416</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1694474125416</updated>
+    </task>
+    <task id="LOCAL-00104" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694478156657</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1694478156657</updated>
+    </task>
+    <task id="LOCAL-00105" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694478849191</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1694478849191</updated>
+    </task>
+    <task id="LOCAL-00106" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694479297529</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1694479297529</updated>
+    </task>
+    <task id="LOCAL-00107" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694533704797</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1694533704798</updated>
+    </task>
+    <task id="LOCAL-00108" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694559918675</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1694559918675</updated>
+    </task>
+    <task id="LOCAL-00109" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694562506522</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1694562506522</updated>
+    </task>
+    <task id="LOCAL-00110" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694564966032</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1694564966032</updated>
+    </task>
+    <task id="LOCAL-00111" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694625302617</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1694625302618</updated>
+    </task>
+    <task id="LOCAL-00112" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694628607786</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1694628607787</updated>
+    </task>
+    <task id="LOCAL-00113" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694637034267</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1694637034268</updated>
+    </task>
+    <task id="LOCAL-00114" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694641272834</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1694641272834</updated>
+    </task>
+    <task id="LOCAL-00115" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694642018307</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1694642018307</updated>
+    </task>
+    <task id="LOCAL-00116" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694642914625</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1694642914625</updated>
+    </task>
+    <task id="LOCAL-00117" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694647751317</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1694647751317</updated>
+    </task>
+    <task id="LOCAL-00118" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694698844271</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1694698844272</updated>
+    </task>
+    <task id="LOCAL-00119" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694704918948</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1694704918949</updated>
+    </task>
+    <task id="LOCAL-00120" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694710302835</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1694710302835</updated>
+    </task>
+    <task id="LOCAL-00121" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694713363199</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1694713363199</updated>
+    </task>
+    <task id="LOCAL-00122" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694715928250</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1694715928250</updated>
+    </task>
+    <task id="LOCAL-00123" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694715980844</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1694715980844</updated>
+    </task>
+    <task id="LOCAL-00124" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694716500965</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1694716500965</updated>
+    </task>
+    <task id="LOCAL-00125" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694718961041</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1694718961041</updated>
+    </task>
+    <task id="LOCAL-00126" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694719919976</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1694719919976</updated>
+    </task>
+    <task id="LOCAL-00127" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694720355830</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1694720355830</updated>
+    </task>
+    <task id="LOCAL-00128" summary="babagi">
+      <option name="closed" value="true" />
+      <created>1694720817638</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1694720817638</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="babagi" />
+    <option name="LAST_COMMIT_MESSAGE" value="babagi" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
