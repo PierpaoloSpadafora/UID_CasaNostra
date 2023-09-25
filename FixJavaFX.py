@@ -1,8 +1,7 @@
+# This script can be run from any location (within the PC where the project is located)
+# It fixes all "incorrect versions error" of JavaFX in FXML files, making all the related warnings disappear
 
-# Questo script può essere lanciato da qualunque percorso (all'interno del pc in cui è presente il progetto)
-# corregge tutte le "versioni errate" di JavaFX nei file FXML facendo scomparire i messaggi di errore
-
-# RICORDATI DI CAMBIARE IL PATH ED EVENTUALMENTE ANCHE LE VERSIONI DI JavaFX
+# REMEMBER TO CHANGE THE PATH AND POSSIBLY THE JAVAFX VERSIONS AS WELL
 
 import os
 
@@ -22,14 +21,14 @@ def replace_string_in_files(directory, old_string, new_string):
             with open(filepath, 'w') as file:
                 file.write(filedata)
 
-#NECESSARI 4 SLASH O IL PATH NON VERRA' INTERPRETATO CORRETTAMENTE
+# YOU NEED 4 SLASHES OR THE PATH WON'T BE INTERPRETED CORRECTLY
 
-directory = 'C:\\\\Users\\\\user\\\\Desktop\\\\nomeProgetto\\\\src\\\\main\\\\resources\\\\percorso\\\\per\\\\la\\\\view'
+directory = 'C:\\\\Users\\\\user\\\\Desktop\\\\projectName\\\\src\\\\main\\\\resources\\\\path\\\\to\\\\view'
 
-# Versione installata in cui vengono salvati i file da sceneBuilder
+# Version installed where files are saved by SceneBuilder
 currentVersion = 'xmlns="http://javafx.com/javafx/19"'
 
-# Versione corretta da Intellij per far scomparire i messaggi di errore
+# Correct version according to IntelliJ to make error messages disappear
 correctVersion = 'xmlns="http://javafx.com/javafx/17.0.6"'
 
 replace_string_in_files(directory, currentVersion, correctVersion)
