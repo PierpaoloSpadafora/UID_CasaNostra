@@ -1,0 +1,52 @@
+* {
+    /*
+    Tritanopia:
+    Incapacità di percepire il colore blu.
+    Confusione tra blu e verde, così come tra giallo e rosa o grigio chiaro.
+
+    -
+
+    Evitare di utilizzare blu e verde come colori distintivi.
+    Usare rosso o arancione al posto del blu.
+    */
+
+    /* COLORI DELLE COSE DA LEGGERE */
+    imagesColor: #FFFFFF;  /* Bianco */
+
+    textColor: #EDEDED;  /* Grigio più chiaro */
+    placeholderColor: #AAB2B4;  /* Grigio chiaro */
+
+    labelDescriptionColor: #AAB2B4;  /* Grigio chiaro */
+    labelErroreColor: #FF6347;  /* Rosso pomodoro */
+    labelPasswordDimenticata: #FF4500;  /* Arancione */
+
+
+    /* BACKGROUND */
+    primaryBackgroundColor: #1C1C1C;  /* Grigio molto scuro */
+    secondaryBackgroundColor: #333333;  /* Grigio scuro */
+    tertiaryBackgroundColor: #4F4F4F;  /* Grigio medio */
+    quaternaryBackgroundColor: #0F0F0F;  /* Grigio molto molto scuro */
+    primarySelectionColor: #D2691E;  /* Marrone cioccolato */
+
+    /* BOTTONI E AVVISI */
+    successButtonColor: #B09F17;  /* Giallo spento */
+    successButtonColorHover: #7C6B16;  /* Oro sporco */
+    dangerButtonColor: #FF6347;  /* Rosso pomodoro */
+    dangerButtonColorHover: #FF4500;  /* Arancione acceso */
+    primaryButtonColor: #FF9200;  /* Arancione scuro */
+    primaryButtonColorHover: #FF7F50;  /* Corallo */
+
+    /* TABELLE */
+    tableHeaderColor: #121212;  /* Grigio scurissimo */
+    tableEvenRowColor: #1E1E1E;  /* Grigio molto scuro */
+    tableOddRowColor: #2F2F2F;  /* Grigio scuro */
+    tableSelectedRowColor: #FF8C00;  /* Arancione scuro */
+    tableRowHover: #4F4F4F;  /* Grigio medio */
+
+    /* ALERT */
+    errorAlert: #FF6347;  /* Rosso pomodoro */
+    infoAlert: #FF8C00;  /* Arancione scuro */
+    warningAlert: #D2691E;  /* Marrone cioccolato */
+    successAlert: #FF4500;  /* Arancione */
+
+}

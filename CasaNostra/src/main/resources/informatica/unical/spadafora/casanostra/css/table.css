@@ -1,0 +1,77 @@
+
+
+/* ================== Stile base della tabella ================== */
+
+.tableTransaction {
+    -fx-background-color: transparent;
+    -fx-border-color: textColor;
+    -fx-border-width: 3px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* ================== Stile celle ================== */
+
+.tableTransaction .table-cell {
+    -fx-text-fill: textColor;
+    -fx-alignment: CENTER;
+    -fx-text-overrun: ellipsis; /* Aggiunge "..." se è troppo lungo il testo */
+}
+
+/* ================== Stile header delle colonne ================== */
+
+.tableTransaction .column-header {
+    -fx-background-color: tableHeaderColor;
+    -fx-text-fill: textColor;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent transparent transparent textColor;
+    -fx-border-width: 0 1px 0 0;
+    -fx-pref-height: 36px;
+}
+
+/* ================== Stile Righe ================== */
+
+.tableTransaction .table-row-cell {
+    -fx-background-color: tableEvenRowColor;
+    -fx-border-color: darkgray transparent transparent transparent;
+    -fx-cell-size: 60px;
+    -fx-cursor: hand;
+}
+
+.tableTransaction .table-row-cell:odd {
+    -fx-background-color: tableOddRowColor;
+}
+
+
+.tableTransaction .table-row-cell:not(:selected):hover,
+.tableTransaction .table-row-cell:odd:not(:selected):hover {
+    -fx-background-color: tableRowHover;
+}
+
+.tableTransaction .table-row-cell:selected {
+    -fx-background-color: tableSelectedRowColor;
+    -fx-border-color: darkgray transparent transparent transparent;
+}
+
+.tableTransaction .table-row-cell:empty {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* ================== Stile della scroll bar ================== */
+
+.tableTransaction .scroll-bar:horizontal .increment-button,
+.tableTransaction .scroll-bar:horizontal .decrement-button {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.tableTransaction .scroll-bar:horizontal {
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+    -fx-min-height: 0;
+}

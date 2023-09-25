@@ -1,0 +1,39 @@
+* {
+    /* COLORI DELLE COSE DA LEGGERE*/
+    imagesColor: black; /* Nero */
+
+    textColor: #000000; /* Nero */
+    placeholderColor: #555555; /* Grigio scuro */
+
+    labelDescriptionColor: #181818; /* Grigio scuro */
+    labelErroreColor: #FF0000; /* Rosso */
+
+
+    /* BACKGROUND */
+    primaryBackgroundColor: #e0e0e0; /* Bianco */
+    secondaryBackgroundColor: #C7C7C7; /* Grigio molto chiaro */
+    tertiaryBackgroundColor: #adadad; /* Grigio chiaro */
+    quaternaryBackgroundColor: #9A9A9A; /* Grigio medio */
+    primarySelectionColor: #7F7F7F; /* Grigio medio-chiaro */
+
+    /* BOTTONI E AVVISI */
+    successButtonColor: #5BD875; /* Verde */
+    successButtonColorHover: #248F3B; /* Verde scuro */
+    dangerButtonColor: #E35D6A; /* Rosso */
+    dangerButtonColorHover: #AD303D; /* Rosso scuro */
+    primaryButtonColor: #4AA1FF; /* Blu */
+    primaryButtonColorHover: #007BFF; /* Blu scuro */
+
+    /* TABELLE */
+    tableHeaderColor: #F8F9FA; /* Grigio molto chiaro */
+    tableEvenRowColor: #FFFFFF; /* Bianco */
+    tableOddRowColor: #F1F1F1; /* Grigio molto chiaro */
+    tableSelectedRowColor: #ADD8E6; /* Azzurro chiaro */
+    tableRowHover: #D0D0D0; /* Grigio medio-chiaro */
+
+    /* ALERT */
+    errorAlert: #ff4d4d;  /* Rosso */
+    infoAlert: #3399ff;  /* Blu */
+    warningAlert: #ffcc00;  /* Giallo  */
+    successAlert: #50c878;  /* Verde */
+}

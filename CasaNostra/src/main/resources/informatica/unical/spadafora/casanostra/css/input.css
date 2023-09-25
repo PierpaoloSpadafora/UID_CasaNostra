@@ -1,0 +1,220 @@
+
+
+/* ================== Text Field ================== */
+
+.inputTextField{
+    -fx-pref-width: 350px;
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-pref-height: 52px;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-prompt-text-fill: placeholderColor;
+}
+
+/* ================== Password Field ================== */
+
+.inputPasswordField{
+    -fx-pref-width: 300px;
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-pref-height: 52px;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 10 0 0 10;
+    -fx-background-radius: 10 0 0 10;
+    -fx-prompt-text-fill: placeholderColor;
+}
+
+/* ================== Text Field ================== */
+
+.occhioPassword{
+    -fx-fill: textColor;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+}
+.occhioPassword:hover{
+    -fx-opacity: 0.5;
+}
+
+.sfondoOcchioPassword{
+     -fx-background-color: secondaryBackgroundColor;
+     -fx-border-color: secondaryBackgroundColor;
+     -fx-border-width: 0px;
+    -fx-border-radius: 0 10 10 0;  /* Angoli arrotondati, ma solo quelli di destra */
+    -fx-background-radius: 0 10 10 0;
+}
+
+/* ================== Text Area ================== */
+
+.inputTextArea{
+    -fx-pref-width: 750px;
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-border-color: secondaryBackgroundColor;
+    -fx-pref-height: 150px;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 0 10 10 0;
+    -fx-background-radius: 10;
+    -fx-prompt-text-fill: placeholderColor;
+}
+.inputTextArea .content{
+    -fx-background-color: secondaryBackgroundColor ;
+    -fx-prompt-text-fill: placeholderColor;
+}
+
+/* ================== lineNumberArea per contare le righe della TextArea affianco ================== */
+
+.lineNumberTextArea {
+    -fx-pref-width: 20px;
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-border-color: secondaryBackgroundColor;
+    -fx-pref-height: 150px;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 10 0 0 10; /* Angoli arrotondati solo sul lato sinistro */
+    -fx-background-radius: 10 0 0 10; /* Angoli arrotondati solo sul lato sinistro */
+}
+.lineNumberTextArea .content {
+    -fx-background-color: secondaryBackgroundColor;
+}
+
+/* ================== Combo Box ================== */
+
+.inputComboBox{
+    -fx-pref-width: 350px;
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-pref-height: 30px;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputComboBox .cell {
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputComboBox .list-view{
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputComboBox .cell:hover{
+    -fx-background-color: tertiaryBackgroundColor;
+    -fx-text-fill: textColor;
+}
+.inputComboBox .arrow {
+    -fx-background-color: textColor;
+}
+
+/* ================== Combo Box ma per le domande di sicurezza (più larghe) ================== */
+
+.inputComboBoxLarge{
+    -fx-pref-width: 550px;
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-pref-height: 30px;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputComboBoxLarge .cell {
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputComboBoxLarge .list-view{
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputComboBoxLarge .cell:hover{
+    -fx-background-color: tertiaryBackgroundColor;
+    -fx-text-fill: textColor;
+}
+.inputComboBoxLarge .arrow {
+    -fx-background-color: textColor;
+}
+
+/* ================== Date Picker ================== */
+
+.inputDatePicker{
+    -fx-pref-width: 350px;
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-pref-height: 30px;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputDatePicker .text-field{
+     -fx-background-color: secondaryBackgroundColor ;
+     -fx-text-fill: textColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputDatePicker .date-picker-popup .month-year-pane {
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-text-fill: textColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputDatePicker .arrow-button {
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+.inputDatePicker .arrow {
+    -fx-background-color: textColor;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+/* ================== Check Box ================== */
+
+.inputCheckBox {
+    -fx-text-fill: textColor;
+}
+.inputCheckBox .box {
+    -fx-pref-width: 20px;
+    -fx-pref-height: 20px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: secondaryBackgroundColor;
+}
+.inputCheckBox .box:hover {
+    -fx-background-color: tertiaryBackgroundColor;
+}
+.inputCheckBox .mark {
+    -fx-background-color: secondaryBackgroundColor;
+}
+.inputCheckBox:selected .box {
+    -fx-background-color: primarySelectionColor;
+}
+.inputCheckBox:selected .mark {
+    -fx-background-color: textColor;
+}
+
+/* ================== Radio Button ================== */
+
+.inputRadioButton {
+    -fx-text-fill: textColor;
+}
+.inputRadioButton .radio {
+    -fx-pref-width: 20px;
+    -fx-pref-height: 20px;
+    -fx-border-radius: 10;  /* Metà della dimensione per un cerchio perfetto */
+    -fx-background-radius: 10;  /* Metà della dimensione per un cerchio perfetto */
+    -fx-background-color: secondaryBackgroundColor;
+}
+.inputRadioButton .radio:hover {
+    -fx-background-color: tertiaryBackgroundColor;
+}
+.inputRadioButton .dot {
+    -fx-background-color: secondaryBackgroundColor;
+    -fx-radius: 5;  /* Metà della dimensione per un cerchio perfetto */
+}
+.inputRadioButton:selected .radio {
+    -fx-background-color: primarySelectionColor;
+}
+.inputRadioButton:selected .dot {
+    -fx-background-color: textColor;
+    -fx-radius: 5;  /* Metà della dimensione per un cerchio perfetto */
+}
+

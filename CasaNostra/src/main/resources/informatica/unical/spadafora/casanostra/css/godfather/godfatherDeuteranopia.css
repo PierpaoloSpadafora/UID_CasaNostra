@@ -1,0 +1,52 @@
+* {
+    /*
+    Deuteranopia:
+    Incapacità di percepire il colore verde.
+    Confusione tra le tonalità di verde e rosso, ma anche tra il verde e alcuni toni di grigio, viola e blu.
+
+    -
+
+    Evitare di utilizzare verde e rosso come colori distintivi.
+    Utilizzare toni di blu o giallo al posto del verde.
+    */
+
+    /* COLORI DELLE COSE DA LEGGERE */
+    imagesColor: #FFFFFF;  /* Bianco */
+
+    textColor: #EDEDED;  /* Grigio più chiaro */
+    placeholderColor: #AAB2B4;  /* Grigio chiaro */
+
+    labelDescriptionColor: #AAB2B4;  /* Grigio chiaro */
+    labelErroreColor: #8A2BE2;  /* Blu violaceo */
+    labelPasswordDimenticata: #1E90FF; /* Blu chiaro */
+
+
+    /* BACKGROUND */
+    primaryBackgroundColor: #1C1C1C;  /* Grigio molto scuro, quasi nero */
+    secondaryBackgroundColor: #333333;  /* Grigio scuro */
+    tertiaryBackgroundColor: #4F4F4F;  /* Grigio medio */
+    quaternaryBackgroundColor: #0F0F0F;  /* Grigio molto molto scuro */
+    primarySelectionColor: #9370DB;  /* Viola */
+
+    /* BOTTONI E AVVISI */
+    successButtonColor: #FFD700;  /* Giallo */
+    successButtonColorHover: #DAA520;  /* Giallo scuro */
+    dangerButtonColor: #A32CFF;  /* Magenta */
+    dangerButtonColorHover: #7423BA;  /* Viola */
+    primaryButtonColor: #4682B4;  /* Blu spento */
+    primaryButtonColorHover: #5F9EA0;  /* Blu mare spento */
+
+    /* TABELLE */
+    tableHeaderColor: #121212;  /* Grigio scurissimo */
+    tableEvenRowColor: #1E1E1E;  /* Grigio molto scuro */
+    tableOddRowColor: #2F2F2F;  /* Grigio scuro */
+    tableSelectedRowColor: #4682B4;  /* Blu spento */
+    tableRowHover: #4F4F4F;  /* Grigio medio */
+
+    /* ALERT */
+    errorAlert: #8A2BE2;  /* Blu violaceo */
+    infoAlert: #40E0D0;  /* Turchese */
+    warningAlert: #FFA500;  /* Arancione */
+    successAlert: #FFD700;  /* Giallo */
+
+}

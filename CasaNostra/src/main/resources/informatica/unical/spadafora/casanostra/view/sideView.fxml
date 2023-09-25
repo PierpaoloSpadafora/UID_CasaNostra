@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="informatica.unical.spadafora.casanostra.controller.SideController">
+   <center>
+      <AnchorPane fx:id="workingArea" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <AnchorPane styleClass="drawerMenu" BorderPane.alignment="CENTER">
+         <VBox fx:id="sideBar" alignment="TOP_CENTER" spacing="30.0" AnchorPane.bottomAnchor="100.0"
+               AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <opaqueInsets>
+               <Insets/>
+            </opaqueInsets>
+            <padding>
+               <Insets bottom="20.0" left="20.0" top="20.0"/>
+            </padding>
+            <VBox fx:id="controlPanelVbox" alignment="CENTER" onMouseClicked="#controlPanelClicked">
+               <cursor>
+                  <Cursor fx:constant="HAND"/>
+               </cursor>
+               <padding>
+                  <Insets bottom="10.0" top="10.0"/>
+               </padding>
+               <FontIcon iconColor="WHITE" iconLiteral="mdi2m-monitor-dashboard" iconSize="50"
+                         styleClass="formIcon">
+                  <VBox.margin>
+                     <Insets/>
+                  </VBox.margin>
+               </FontIcon>
+               <Label text="Control&#10;Panel" textAlignment="CENTER">
+                  <VBox.margin>
+                     <Insets/>
+                  </VBox.margin>
+               </Label>
+            </VBox>
+            <VBox fx:id="accountVbox" alignment="CENTER" onMouseClicked="#accountClicked">
+               <cursor>
+                  <Cursor fx:constant="HAND"/>
+               </cursor>
+               <padding>
+                  <Insets bottom="10.0" top="10.0"/>
+               </padding>
+               <FontIcon iconColor="WHITE" iconLiteral="mdi2a-account" iconSize="50" styleClass="formIcon">
+                  <VBox.margin>
+                     <Insets/>
+                  </VBox.margin>
+               </FontIcon>
+               <Label text="Account">
+                  <VBox.margin>
+                     <Insets/>
+                  </VBox.margin>
+               </Label>
+            </VBox>
+            <VBox fx:id="impostazioniVbox" alignment="CENTER" onMouseClicked="#settingsClicked">
+               <cursor>
+                  <Cursor fx:constant="HAND"/>
+               </cursor>
+               <padding>
+                  <Insets bottom="10.0" top="10.0"/>
+               </padding>
+               <FontIcon iconColor="WHITE" iconLiteral="mdi2c-cog" iconSize="50" styleClass="formIcon">
+                  <VBox.margin>
+                     <Insets/>
+                  </VBox.margin>
+               </FontIcon>
+               <Label text="Settings">
+                  <VBox.margin>
+                     <Insets/>
+                  </VBox.margin>
+               </Label>
+            </VBox>
+            <VBox fx:id="creditsVbox" alignment="CENTER" onMouseClicked="#creditsClicked">
+               <cursor>
+                  <Cursor fx:constant="HAND"/>
+               </cursor>
+               <padding>
+                  <Insets bottom="10.0" top="10.0"/>
+               </padding>
+               <FontIcon iconColor="WHITE" iconLiteral="mdi2m-more" iconSize="50" styleClass="formIcon">
+                  <VBox.margin>
+                     <Insets/>
+                  </VBox.margin>
+               </FontIcon>
+               <Label text="Credits">
+                  <VBox.margin>
+                     <Insets/>
+                  </VBox.margin>
+               </Label>
+            </VBox>
+         </VBox>
+         <VBox alignment="CENTER" onMouseClicked="#logoutClicked" AnchorPane.bottomAnchor="0.0"
+               AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <cursor>
+               <Cursor fx:constant="HAND"/>
+            </cursor>
+            <padding>
+               <Insets bottom="20.0"/>
+            </padding>
+            <FontIcon iconColor="WHITE" iconLiteral="mdi2l-logout" iconSize="50" styleClass="formIcon">
+               <VBox.margin>
+                  <Insets/>
+               </VBox.margin>
+            </FontIcon>
+            <Label text="Logout">
+               <VBox.margin>
+                  <Insets/>
+               </VBox.margin>
+            </Label>
+         </VBox>
+      </AnchorPane>
+   </left>
+</BorderPane>
