@@ -8,7 +8,7 @@ While the core purpose is to provide a straightforward solution for financial ma
 - **Expense Tracking**: Log and categorize expenses with ease.
 - **Budgeting**: Set monthly or yearly financial goals.
 - **Reports & Analytics**: View your spending habits with the help of a colored bar chart.
-- **User Profiles**: Each family member can have their own private profile, lesser you know longer you live ;).
+- **User Profiles**: Each family member can have their own private profile (lesser you know longer you live 🤐).
 
 ## Prerequisites
 - JavaFX (version 17.0.6 or higher)
