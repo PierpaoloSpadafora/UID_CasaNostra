@@ -1,4 +1,4 @@
-# This script can be run from any location (within the PC where the project is located)
+# This script can be run from any location
 # It fixes all "incorrect versions error" of JavaFX in FXML files, making all the related warnings disappear
 
 # REMEMBER TO CHANGE THE PATH AND POSSIBLY THE JAVAFX VERSIONS AS WELL
@@ -23,7 +23,7 @@ def replace_string_in_files(directory, old_string, new_string):
 
 # YOU NEED 4 SLASHES OR THE PATH WON'T BE INTERPRETED CORRECTLY
 
-directory = 'C:\\\\Users\\\\user\\\\Desktop\\\\projectName\\\\src\\\\main\\\\resources\\\\path\\\\to\\\\view'
+directory = 'C:\\\path\\\to\\\your\\\view\\\folder'
 
 # Version installed where files are saved by SceneBuilder
 currentVersion = 'xmlns="http://javafx.com/javafx/19"'
