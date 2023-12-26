@@ -24,9 +24,6 @@ While the core purpose is to provide a straightforward solution for financial ma
     mv -mvn .mvn
     ```
 
-## License
-### GNU General Public License (GPL)
-
 ## Credits
 - https://it.pngtree.com/freepng/mafia-vector-illustration-for-your-company-or-brand_4102191.html?sol=downref&id=bef
 - https://www.fontspace.com/the-godfather-font-f2410
