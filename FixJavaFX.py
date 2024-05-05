@@ -21,8 +21,6 @@ def replace_string_in_files(directory, old_string, new_string):
             with open(filepath, 'w') as file:
                 file.write(filedata)
 
-# YOU NEED 4 SLASHES OR THE PATH WON'T BE INTERPRETED CORRECTLY
-
 directory = 'C:\\\path\\\to\\\your\\\view\\\folder'
 
 # Version installed where files are saved by SceneBuilder
