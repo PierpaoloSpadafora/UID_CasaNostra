@@ -1,6 +1,6 @@
 # CasaNostra: Mafia-themed Family Expense Manager
 
-CasaNostra is a JavaFX-based desktop application designed to assist (mob) families in managing and keeping track of their expenses. 
+CasaNostra is a JavaFX-based desktop application designed to assist (mob 🕵️‍♂️) families in managing and keeping track of their expenses. 
 While the core purpose is to provide a straightforward solution for financial management, it incorporates a silly mafia-themed aesthetic and user experience ;).
 
 ## Features
